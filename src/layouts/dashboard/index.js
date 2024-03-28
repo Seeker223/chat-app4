@@ -6,7 +6,7 @@ import Logo from "../../assets/Images/logo.ico"
 import { Nav_Buttons } from "../../data/index.js";
 import { Gear } from "phosphor-react";
 import {faker} from '@faker-js/faker';
-import useSettings from "../../hooks/useSettings";
+import useSettings from "../../hooks/useSettings.js";
 const AntSwitch = styled(Switch)(({ theme }) => ({
   width: 28,
   height: 16,
